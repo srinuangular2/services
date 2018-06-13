@@ -1,0 +1,19 @@
+
+
+<table>
+
+  <thead>
+    <tr>
+      <th>S.No</th>
+      <th>Name</th>
+      <th>Language</th>
+    </tr>
+  </thead>
+  <tbody *ngFor="let countries of myarray ; let i=index;">
+    <tr>
+      <td>{{i+1}}</td>
+      <td>{{countries.name}}</td>
+      <td>{{countries.capital}}</td>
+    </tr>
+  </tbody>
+</table>
